@@ -1,0 +1,33 @@
+name = "ArmaServerFPSMenu"
+author = "Akira"
+prefix = "SevFPS"
+mainprefix = "z"
+
+[files]
+include = [
+    "mod.cpp",
+    "logo.paa",
+    "logo.png",
+    "meta.cpp",
+    "CHANGELOG.md"
+]
+
+[version]
+#path = "addons/core/script_version.hpp" # Default
+
+major = 1
+minor = 0
+patch = 0
+build = 0
+
+git_hash = 0 # Default: 8
+
+[hemtt.dev]
+optional_mod_folders = false # Default: true
+
+[hemtt.build]
+optional_mod_folders = false # Default: true
+
+[hemtt.release]
+sign = true # Default: true
+archive = false # Default: true
